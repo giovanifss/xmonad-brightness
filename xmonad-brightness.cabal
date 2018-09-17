@@ -1,0 +1,26 @@
+name:                xmonad-brightness
+version:             0.1.0.0
+synopsis:            XMonad plugin for brightness control (linux)
+description:         XMonad plugin to update brightness through /sys/class/backlight/intel_backlight/brightness file
+homepage:            https://github.com/giovanifss/xmonad-brightness#readme
+license:             MIT
+license-file:        LICENSE
+author:              giovanifss
+maintainer:          silva [dot] giovanif [at] gmail [dot] com
+copyright:           2018 Giovani Silva
+category:            Web
+build-type:          Simple
+extra-source-files:  README.md
+cabal-version:       >=1.10
+
+library
+  hs-source-dirs:      src
+  exposed-modules:     XMonad.Util.Brightness
+  build-depends:       base >= 4.7 && < 5,
+                       xmonad,
+                       bytestring
+  default-language:    Haskell2010
+
+source-repository head
+  type:     git
+  location: https://github.com/giovanifss/xmonad-brightness
