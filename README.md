@@ -1,7 +1,7 @@
 # xmonad-brightness
 XMonad plugin for brightness control (linux). Got the idea from [xmonad-vanessa](https://hackage.haskell.org/package/xmonad-vanessa).  
 
-**Note**: This plugin was merged in [xmonad-extras](https://github.com/xmonad/xmonad-extras), you may consider using it instead of a manual installation.
+**Note**: This plugin was merged in [xmonad-extras](https://github.com/xmonad/xmonad-extras), no further development will be made in this repository.
 
 ### Installation
 Copy `src/XMonad/Util/Brightness.hs` to `~/.xmonad/lib/XMonad/Util/Brightness.hs`.
